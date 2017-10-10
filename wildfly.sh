@@ -11,4 +11,3 @@ wget $WILDFLY_URL
 tar xzf $WILDFLY_FILE
 ln -s /opt/wildfly-$WILDFLY_VERSION /opt/wildfly
 echo "export LAUNCH_JBOSS_IN_BACKGROUND=true" >> /etc/profile.d/wildfly_envs.sh
-exec bash
