@@ -19,4 +19,3 @@ JRE_HOME=$JAVA_HOME/jre
 echo "export JAVA_HOME=$JAVA_HOME" >> /etc/profile.d/java_envs.sh
 echo "export JRE_HOME=$JRE_HOME" >> /etc/profile.d/java_envs.sh
 echo "export PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin" >> /etc/profile.d/java_envs.sh
-exec bash
