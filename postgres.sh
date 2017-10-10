@@ -20,7 +20,6 @@ echo "export PATH=$PATH:$POSTGRES_HOME/bin" >> /etc/profile.d/postgres_envs.sh
 mkdir /var/log/postgresql
 CMD="./$POSTGRES_FILE --mode unattended --prefix $POSTGRES_HOME --serverport 5432 --datadir $PGDATA --superpassword $PG_PASSWORD"
 $CMD
-exec bash
 echo "Now you can start your cluster running this command:"
 echo "chown -R postgres:postgres $POSTGRES_HOME"
 echo "chown -R postgres:postgres /var/log/postgresql/"
